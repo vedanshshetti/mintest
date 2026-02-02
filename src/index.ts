@@ -1,4 +1,3 @@
-import { ObjectFlags } from "typescript";
 
 type CBType=()=> {
         res: boolean,
