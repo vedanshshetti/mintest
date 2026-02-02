@@ -1,0 +1,27 @@
+{
+  "name": "@insanelabs/mintest",
+  "version": "1.0.0",
+  "description": "A minimal, open-source, typescript testing library.",
+  "keywords": [
+    "mintest"
+  ],
+  "homepage": "https://github.com/vedanshshetti/mintest#readme",
+  "bugs": {
+    "url": "https://github.com/vedanshshetti/mintest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedanshshetti/mintest.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Vedansh Shetti",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
